@@ -1,0 +1,42 @@
+.Business {
+  border: 1px solid #c1c4c9;
+  border-radius: 5px;
+  padding: 2rem;
+  margin: 2rem;
+}
+
+.Business img {
+  width: 30rem;
+  height: 30rem;
+}
+
+.content {
+  width: 30rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+p {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.businessAddress {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.businessReview {
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  justify-content: space-between;
+  text-align: right;
+}
+
+.businessReview h3 {
+  font-size: 2rem;
+  color: #cca353;
+  font-weight: 600;
+}

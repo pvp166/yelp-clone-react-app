@@ -1,0 +1,63 @@
+.Searchbar {
+  color: white;
+  background-image: url("./searchbar_img.jpg");
+  background-size: cover;
+  background-position: 30%;
+  background-repeat: no-repeat;
+  height: 35rem;
+  padding: 5rem;
+}
+
+.searchForm {
+  margin-top: 6em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.searchForm select {
+  margin-right: 2rem;
+  border-radius: 5px;
+  width: 20rem;
+}
+
+.textField input {
+  margin-right: 2rem;
+  height: 4rem;
+  width: 30rem;
+  border-radius: 5px;
+  padding: 0.6rem;
+}
+
+#slogan {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 3.5rem;
+}
+
+#searchButton {
+  font-size: 1.8rem;
+  color: white;
+  border-radius: 5px;
+  width: 16rem;
+  height: 5.8rem;
+  text-decoration: none;
+  border: none;
+  background-color: #555555;
+}
+
+@media only screen and (max-width: 900px) {
+  .searchForm input {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .searchForm select {
+    width: 60%;
+    height: 5.8rem;
+  }
+}
